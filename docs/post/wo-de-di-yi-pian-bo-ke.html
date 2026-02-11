@@ -10,9 +10,9 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="在留言（正文）输入你想写的内容。">
+<meta name="description" content="欢迎来到我的个人博客！经过一番折腾，终于把这个小窝搭建好了。">
 <meta property="og:title" content="我的第一篇博客">
-<meta property="og:description" content="在留言（正文）输入你想写的内容。">
+<meta property="og:description" content="欢迎来到我的个人博客！经过一番折腾，终于把这个小窝搭建好了。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://aspencer6.github.io/enzewang.github.io/post/wo-de-di-yi-pian-bo-ke.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -57,7 +57,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/aspencer6/enzewang.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/enzewang-wll/enzewang.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -73,7 +73,20 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>在留言（正文）输入你想写的内容</p></div>
+<div class="markdown-body" id="postBody"><p>欢迎来到我的个人博客！经过一番折腾，终于把这个小窝搭建好了。域名 <strong>enzewang.me</strong> 也顺利解析成功，看着浏览器地址栏的小锁头 🔒，感觉非常棒。</p>
+<h2>👨‍💻 关于我</h2>
+<p>我是 <strong>王恩泽</strong>（网名 <strong>王六六</strong>），目前就读于 <strong>电子科技大学 (UESTC)</strong>。</p>
+<p>我对技术充满热情，喜欢折腾各种新鲜好玩的东西。</p>
+<h2>🌟 这个博客会写什么？</h2>
+<p>这里将是我记录学习和生活的地方，我计划分享：</p>
+<ul>
+<li>💻 <strong>技术笔记</strong>：编程学习路上的踩坑与心得</li>
+<li>🔧 <strong>折腾记录</strong>：像这次搭建 Gmeek 博客的过程</li>
+<li>📚 <strong>生活随笔</strong>：关于成长的思考和有趣的日常</li>
+</ul>
+<h2>🚀 关于本站</h2>
+<p>本站基于 <a href="https://github.com/Meekdai/Gmeek">Gmeek</a> 构建，托管于 GitHub Pages，通过 Cloudflare 进行加速。这是一种非常轻量、极客的博客方式——<strong>不需要服务器，写个 Issue 就是一篇博客</strong>。</p>
+<p>感谢你的访问！如果你对我的内容感兴趣，欢迎在下方评论区留言交流。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -135,7 +148,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 cmButton=document.getElementById("cmButton");
     span=document.createElement("span");
     span.setAttribute("class","Counter");
-    span.innerHTML="2";
+    span.innerHTML="1";
     cmButton.appendChild(span);
 
 
@@ -150,7 +163,7 @@ function openComments(){
 
     script=document.createElement("script");
     script.setAttribute("src","https://utteranc.es/client.js");
-    script.setAttribute("repo","aspencer6/enzewang.github.io");
+    script.setAttribute("repo","enzewang-wll/enzewang.github.io");
     script.setAttribute("issue-term","title");
     
     if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
